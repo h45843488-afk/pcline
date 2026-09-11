@@ -983,7 +983,7 @@ kline_type = st.sidebar.radio(
 )
 
 sub1_metric = st.sidebar.selectbox(
-    "副圖 1 指標切換",
+    "副圖 1 指標切換（波段拐點、資金爆發、六脈神劍）",
     ["波段拐點", "資金爆發", "六脈神劍"],
     key="sub1_metric_select"
 )
