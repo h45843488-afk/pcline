@@ -511,7 +511,7 @@ def get_y_axis_sub1_config(sub1_metric):
                 "color": "#CCCCCC",
                 "fontSize": 10,
                 "formatter": """function (value) {
-                    var map = {15: 'MACD', 30: 'KDJ', 45: 'RSI', 60: 'LWR', 75: 'BBI', 90: 'MTM'};
+                    var map = {15: 'MACD', 30: 'KDJ', 45: 'RSI', 60: 'LWR', 75: 'BBI', 90: 'ZLMM'};
                     return map[value] || '';
                 }"""
             },
